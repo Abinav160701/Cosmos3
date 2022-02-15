@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Cosmos3">
         <activity
+            android:name=".Register"
+            android:exported="false" />
+        <activity
+            android:name=".Login"
+            android:exported="false" />
+        <activity
             android:name=".FAQs"
             android:exported="false" />
         <activity

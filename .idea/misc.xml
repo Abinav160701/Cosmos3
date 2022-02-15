@@ -6,8 +6,10 @@
         <entry key="app/src/main/res/layout/activity_aboutus.xml" value="0.35625" />
         <entry key="app/src/main/res/layout/activity_contactus.xml" value="0.12628865979381443" />
         <entry key="app/src/main/res/layout/activity_faqs.xml" value="0.19773371104815865" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.335" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.22" />
         <entry key="app/src/main/res/layout/activity_projects.xml" value="0.35625" />
+        <entry key="app/src/main/res/layout/activity_register.xml" value="0.21979166666666666" />
       </map>
     </option>
   </component>
