@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="textView3" type="id" />
+    <item name="imageView7" type="id" />
+    <item name="textView6" type="id" />
+    <item name="divider3" type="id" />
+    <item name="textView4" type="id" />
+    <item name="editTextFirstName" type="id" />
+    <item name="editTextLastName" type="id" />
+    <item name="editTextEmailAddress" type="id" />
+    <item name="editTextSubject" type="id" />
+    <item name="divider" type="id" />
+    <item name="imageView8" type="id" />
+    <item name="imageButton3" type="id" />
+    <item name="imageView9" type="id" />
+    <item name="textView10" type="id" />
+    <item name="imageButton" type="id" />
+    <item name="button" type="id" />
+    <item name="editTextTextMultiLine" type="id" />
+    <item name="imageButton8" type="id" />
+    <item name="divider4" type="id" />
+</resources>

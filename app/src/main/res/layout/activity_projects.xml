@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Projects">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="260dp"
+                android:background="#FFFFFF"
+                android:orientation="vertical"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent">
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="serif"
+                    android:padding="15dp"
+                    android:paddingStart="30dp"
+                    android:text="@string/hire_us_for"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="35sp"
+                    tools:ignore="RtlSymmetry"
+                    android:background="#00072C"/>
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="serif"
+                    android:text="@string/website_design"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="25sp"
+                    android:layout_marginTop="15sp"/>
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:paddingTop="20dp"
+                    android:text="@string/our_web_design_team_has_ample_years_of_experience_in_the_core_areas_of_design_to_build_a_website_that_you_need"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:fontFamily="serif"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="260dp"
+                android:background="#00072C"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="serif"
+                    android:text="@string/mobile_app_development"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25sp"
+                    android:layout_marginBottom="25sp"
+                    android:fontFamily="serif"
+                    android:text="@string/creating_seamless_and_intuitive_mobile_applications_that_offer_the_best_user_experience_is_what_our_team_of_mobile_app_development_india_are_experts_at"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="460dp"
+                android:background="#FFFFFF"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25sp"
+                    android:fontFamily="serif"
+                    android:text="@string/digital_marketing"
+                    android:textAlignment="center"
+                    android:textColor="#000B49"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="20sp"
+                    android:fontFamily="serif"
+                    android:text="@string/with_researched_digital_marketing_we_will_ensure_that_new_customers_and_clients_are_able_to_find_your_business"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="642dp"
+                android:background="#00072C"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="50dp"
+                    android:textColor="@color/white"
+                    android:textAlignment="center"
+                    android:textSize="30sp"
+                    android:text="Bangalore, India"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="chetan@cosmoss.in"
+                    android:textSize="30sp"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"/>
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
